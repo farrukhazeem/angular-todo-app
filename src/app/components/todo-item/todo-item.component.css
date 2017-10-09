@@ -1,0 +1,29 @@
+.todowrapper {
+    border-bottom: 1px solid #efe;
+    text-align: left;
+    margin-bottom: 10px;
+    
+   
+    
+    
+}
+
+.removeTodo {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 7px;
+    color: white;
+    border-color: red;
+    float: left;
+    right: 315px;
+    position: absolute;
+
+}
+
+.removeTodo:hover {
+background-color: #DCE775;
+color: red;
+}

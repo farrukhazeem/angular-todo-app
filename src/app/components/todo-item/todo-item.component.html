@@ -1,0 +1,7 @@
+
+<div class="todowrapper">
+<p *ngFor="let todo of todos" >
+ 
+  <button class="removeTodo"(click)= "removeTodo()">Remove</button>  {{todo.text}}
+</p>
+</div>

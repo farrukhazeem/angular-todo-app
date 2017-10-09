@@ -1,0 +1,24 @@
+.todo-input-wrapper input{
+   width: 80%;
+   height: 25px;
+   padding: 10px;
+   font-size: 14px;
+  
+ }
+
+.submit-btn {
+    height:50px;
+    width:13%;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: white;
+    background-color: #BA68C8;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-color: none;
+    border-image: initial;
+}
+
+    
