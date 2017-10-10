@@ -1,24 +1,23 @@
 .todo-input-wrapper input{
-   width: 80%;
+   width: calc(100% - 100px);
    height: 15px;
    padding: 10px;
    font-size: 14px;
-  
  }
 
 .submit-btn {
-    height:38px;
-    width:13%;
+    height: 38px;
+    width: 66px;
     text-align: center;
     cursor: default;
     color: white;
-    background-color:#1976D2;
+    background-color: #1976D2;
     border-width: 0px;
     padding: 7px;
     vertical-align: top;
+    float: right;
 }
 
 .submit-btn:hover {
-
-background-color:#63aaf1;
+    background-color:#63aaf1;
 }    

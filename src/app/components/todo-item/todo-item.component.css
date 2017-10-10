@@ -2,37 +2,42 @@
     border-bottom: 1px solid #efe;
     text-align: left;
     margin-bottom: 0px;   
-    padding: 12px;
+    padding: 12px 0px 12px 12px;
     background-color: #90CAF9;
     margin-top: 9px;
 }
 
+.todowrapper span {
+    width: calc(100% - 80px);
+    position: relative;
+    display: inline-block;
+}
+
 .todolist{
-margin: 10px;
-display: flex;
-direction:column;
-padding: 3px;
-color:whit#006064;
- margin-top: 9px;
-background-color: #90CAF9;
-height:30px;
-width:97%;
-border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    direction:column;
+    padding: 3px;
+    color:whit#006064;
+    margin-top: 9px;
+    background-color: #90CAF9;
+    height:30px;
+    width:97%;
+    border-radius: 5px;
 }
 .removeTodo {
-    margin-right: 20px;
-    margin-top:-7px;
-    margin-bottom: 10px;
     border-width: 2px;
+    margin-top: -7px;
     border-radius: 3px;
     border-style: solid;
     padding: 7px;
+    right: 8px;
+    float: right;
+    position: relative;
+    vertical-align: top;
     color: white;
     border-color: red;
-    float: left;
-    right: 339px;
-    position: absolute;
-    background-color: #C62828;
+    background-color: #C62828; 
 }
 
 .removeTodo:hover {

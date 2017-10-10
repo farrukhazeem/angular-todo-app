@@ -25,9 +25,11 @@ export class TodoInputComponent implements OnInit {
     }
   }
 
-   private addTodo(): void {
-    this.todoservice.addTodo(this.todoText);
-    this.todoText='';
+  private addTodo(): void {
+    if (this.todoText) {
+      this.todoservice.addTodo(this.todoText);
+      this.todoText = '';
+    }
   } 
 
 }
