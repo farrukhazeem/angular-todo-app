@@ -13,10 +13,9 @@ export class TodoItemComponent implements OnInit {
   @Input()
   private todo: Todo;
 
-todos = []
+    //todos = []
   constructor(private todoService: TodoService) { 
-   this.todos = todoService.getTodo()
-   console.log(this.todos);
+   // this.todos = todoService.getTodos();
   }
 
   ngOnInit() {

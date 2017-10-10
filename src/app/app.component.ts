@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { TodoService } from './services/todo.service';
+import { Todo } from './classes/todo';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +9,8 @@ import { TodoService } from './services/todo.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor (private todoService: TodoService){
+  constructor (public todoService: TodoService){
     
   }
-  title = 'app';
+  
 }

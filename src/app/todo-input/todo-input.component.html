@@ -1,5 +1,5 @@
 <br>
 <div class="todo-input-wrapper">
-  <input type="text" [(ngModel)]="todoText" value={{todoText}} placeholder="Enter Todos"/>
+  <input type="text" [(ngModel)]="todoText" (keyup)="mayBeEnter($event)" value={{todoText}} placeholder="Enter Todos"/>
   <button class="btn btn-primary submit-btn" (click)="addTodo()">Enter</button>
 </div>

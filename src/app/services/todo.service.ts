@@ -17,13 +17,12 @@ export class TodoService {
     this.nextId =3;
   }
    public addTodo(text: string): void {
-     console.log(this.todos);
      let todo = new Todo(this.nextId, text);
      this.todos.push(todo);
      this.nextId++;
 
    }
-   public getTodo(): Todo[] {
+   public getTodos(): Todo[] {
      return this.todos;
 
    }

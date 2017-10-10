@@ -19,6 +19,12 @@ export class TodoInputComponent implements OnInit {
   ngOnInit() {
   }
 
+  private mayBeEnter(event): void {
+    if(event.which === 13) {
+      this.addTodo();
+    }
+  }
+
    private addTodo(): void {
     this.todoservice.addTodo(this.todoText);
     this.todoText='';
